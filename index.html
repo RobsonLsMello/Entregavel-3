@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entregável 3</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Calculadora de Descontos</h1>
+    <form action="" method="GET">
+        <div>
+            <label for="preco">Preço do Produto</label>
+            <input type="number" class="bloco" name="preco" id="preco">
+        </div>
+        
+        <div>
+            <label for="desconto">Desconto a ser aplicado</label>
+            <div class="bloco">
+                <input type="number" name="desconto" id="desconto">%
+            </div>
+        </div>    
+        <p>Valor a Pagar</p>
+        <p id="valor"></p>
+        <button type="button" id="submeter">Calcular</button>  
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
